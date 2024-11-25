@@ -12,6 +12,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/OpM3TA/linux_kernel-4.4.x/
+          kernel-branch: nexell
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
